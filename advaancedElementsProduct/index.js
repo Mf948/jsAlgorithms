@@ -5,9 +5,9 @@ for (let i = 0; i < inputArray.length -1; i++){
   newArray.push(x)
     
 }
-console.log(newArray)
-console.log(...newArray)
-console.log (Math.max(...newArray))
+console.log(newArray)// old array
+console.log(...newArray)// duplicate of old array
+console.log (Math.max(...newArray)) /// max of the numbers in the array
 }
 
 solution([3, 6, -2, -5, 7, 3])
